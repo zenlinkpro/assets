@@ -1,21 +1,21 @@
-# Sushi Assets Info
+# Zenlink Assets Info
 
 ![Check](https://github.com/trustwallet/assets/workflows/Check/badge.svg)
 
 # To Add Logo
 - [ ] Fork the Github repository
 
-- [ ] Create folder with name of token smartcontact address in **CHECKSUM** format `blockchains/ethereum/assets/<token_smartcontract_address>/`.
+- [ ] Create folder with name of token smartcontact address in **CHECKSUM** format `blockchains/moonriver/assets/<token_smartcontract_address>/`.
 
 - [ ] Tell your designer that token image must be in PNG format, avoid transparent background, recommended size 256x256px, with max file size of 100kB.
 
-- [ ] Upload your logo with file named `logo.png` to previously created folder with smartcontract address, and if you done all correctly your path should look like this. `blockchains/ethereum/assets/0x1234567461d3f8Db7496581774Bd869C83D51c93/logo.png`
+- [ ] Upload your logo with file named `logo.png` to previously created folder with smartcontract address, and if you done all correctly your path should look like this. `blockchains/moonriver/assets/0x1A93B23281CC1CDE4C4741353F3064709A16197d/logo.png`
 
 - [ ] Run `npm run check` and make sure tests pass
 
-- [ ] Create a pull request to the main repo
+- [ ] Create a pull request to the master branch of the zenlink/assets repo
 
-- [ ] Add link to sushiswap/default-token-list Issue
+- [ ] Send an asset merge request email to apollo@zenlink.pro
 
 
 ## Scripts
