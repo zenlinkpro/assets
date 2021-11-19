@@ -13,7 +13,7 @@
 
 - [ ] Run `npm run check` and make sure tests pass
 
-- [ ] Create a pull request to the main repo
+- [ ] Create a pull request to the master branch of the zenlink/assets repo
 
 - [ ] Send an asset merge request email to apollo@zenlink.pro
 
