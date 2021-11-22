@@ -18,7 +18,7 @@
 - [ ] Send an asset merge request email to apollo@zenlink.pro
 
 
-## Scripts
+# Scripts
 
 There are several scripts available for maintainers:
 
@@ -30,3 +30,9 @@ There are several scripts available for maintainers:
 - `npm run update` -- Run manual updates from external sources, for manual use.
 - `npm test` -- Run script unit tests
 - `npm lint` -- Run Lint static code check
+
+# Disclaimer
+- The purpose of this repo is just to record and provide token profile freely.
+- Zenlink doesn't fully verify the authenticity of the token profile and will be not responsible for that.
+- Zenlink has the right to reject any token information that we consider suspicious.
+- When adding token information, please ensure that the information is true and reliable, Zenlink will reserve the right to pursue legal action.
