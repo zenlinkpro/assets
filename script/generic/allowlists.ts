@@ -128,7 +128,9 @@ async function checkUpdateAllowDenyList(chain: string, checkOnly: boolean ): Pro
 export class Allowlists implements ActionInterface {
     getName(): string { return "Allowlists"; }
 
-    getSanityChecks = null;
+    getSanityChecks(): CheckStepInterface[] {
+        return []
+    }
 
     getConsistencyChecks(): CheckStepInterface[] {
         const steps: CheckStepInterface[] = [];
